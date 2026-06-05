@@ -42,5 +42,21 @@ Feature 3: Search quiz
 
 ## **Contributors**
 
-* [Contributor 1](https://github.com/Jcdes) – Repository Owner
-* [Contributor 2](https://github.com/IsiahJordan) - Repository Developer
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Jcdes">
+        <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" alt=""/>
+        <br />
+        <sub><b>Owner</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/IsiahJordan">
+        <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;" alt=""/>
+        <br />
+        <sub><b>Developer</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
