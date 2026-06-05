@@ -44,10 +44,8 @@ Feature 3: Search quiz
 <div>
    <a href="https://github.com/Jcdes" display="inline">
      <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" style="border-radius:50%;" alt=""/>
-     <sub><b>Owner</b></sub>
    </a>
    <a href="https://github.com/IsiahJordan" display="inline">
      <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;"/>
-     <sub><b>Developer</b></sub>
    </a>
 </div>
