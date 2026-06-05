@@ -42,9 +42,9 @@ Feature 3: Search quiz
 
 ## **Contributors**
 
-<table>
+<table align="center">
   <tr>
-    <td align="center">
+    <td align="center" style={{border-radius: 100}}>
       <a href="https://github.com/Jcdes">
         <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" alt=""/>
         <br />
