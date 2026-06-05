@@ -1,5 +1,4 @@
 # **Quiz Remedy (Qz-Remedy)**
----
 
 ## **What is Qz-Remedy?**
 Qz-Remedy is an react application with python as the backend. The goal of the project is to not only help users to 
@@ -42,21 +41,15 @@ Feature 3: Search quiz
 
 ## **Contributors**
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Jcdes">
-        <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" style="border-radius:50%;" alt=""/>
-        <br />
-        <sub><b>Owner</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/IsiahJordan">
-        <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;" style="border-radius:50%;" alt=""/>
-        <br />
-        <sub><b>Developer</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center;" align="center">
+   <a href="https://github.com/Jcdes">
+     <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" style="border-radius:50%;" alt=""/>
+     <br />
+     <sub><b>Owner</b></sub>
+   </a>
+   <a href="https://github.com/IsiahJordan" style="margin-left: 20px;">
+     <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;" style="border-radius:50%;" alt=""/>
+     <br />
+     <sub><b>Developer</b></sub>
+   </a>
+</div>
