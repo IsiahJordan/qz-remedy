@@ -42,13 +42,13 @@ Feature 3: Search quiz
 ## **Contributors**
 
 <div>
-   <a href="https://github.com/Jcdes">
+   <a href="https://github.com/Jcdes" display="block">
      <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" style="border-radius:50%;" alt=""/>
      <br />
      <sub><b>Owner</b></sub>
    </a>
-   <a href="https://github.com/IsiahJordan" style="margin-left: 20px;">
-     <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;" style="border-radius:50%;" alt=""/>
+   <a href="https://github.com/IsiahJordan" display="block">
+     <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;" style="border-radius:50%; border: 1px solid #000;" alt=""/>
      <br />
      <sub><b>Developer</b></sub>
    </a>
