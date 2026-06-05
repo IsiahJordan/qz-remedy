@@ -46,14 +46,14 @@ Feature 3: Search quiz
   <tr>
     <td align="center">
       <a href="https://github.com/Jcdes">
-        <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" style="border-radius:50%;padding-right:40px" alt=""/>
+        <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" style="border-radius:50%;" alt=""/>
         <br />
         <sub><b>Owner</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/IsiahJordan">
-        <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;" style="border-radius:50%;padding-left:40px" alt=""/>
+        <img src="https://avatars.githubusercontent.com/IsiahJordan" width="100px;" style="border-radius:50%;" alt=""/>
         <br />
         <sub><b>Developer</b></sub>
       </a>
