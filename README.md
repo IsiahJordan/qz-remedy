@@ -41,7 +41,7 @@ Feature 3: Search quiz
 
 ## **Contributors**
 
-<div style="display: flex; justify-content: center;" align="center">
+<div style="display: flex; justify-content: center;">
    <a href="https://github.com/Jcdes">
      <img src="https://avatars.githubusercontent.com/Jcdes" width="100px;" style="border-radius:50%;" alt=""/>
      <br />
