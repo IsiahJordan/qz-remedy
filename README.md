@@ -6,29 +6,29 @@ create fun quizzes but more importantly, make an effecient learning experience w
 tools
 
 ## **Setup Requirements**
-Before pulling the project, it's expected for the dev to have MongoDB v8.2, Python v1.13 and node v22.18
+Before pulling the project, it's expected for the dev to have MongoDB v8.2, Node v26.2
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/project-name.git
    ```
 
-2. Install the client dependencies:
+2. Build Docker Image:
   ```bash
   cd client
-  npm install
-  ```
+  docker build -t client .
 
-3. Install the server dependencies:
-  ```bash
   cd server
-  source venv/bin/activate (or venv/Scripts/activate)
+  docker build -t server .
   ```
 
-4. Run the project:
+3. Run Docker Container:
   ```bash
-  npm start
-  flask --app server run
+  cd client
+  docker run -d -p 5000:5000 client
+
+  cd server
+  docker run -d -p 3000:3000 server
   ```
 
 ## **Main Features**
