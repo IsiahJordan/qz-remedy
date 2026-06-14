@@ -7,9 +7,18 @@
   "type": "module",
   "main": "entry.ts",
   "scripts": {
-    "dev": "node entry.ts"
+    "dev": "node entry.ts",
+    "start": "nodemon entry.ts"
   },
   "dependencies": {
-    "express": "^5.2.0"
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.0",
+    "mongodb": "^7.3.0",
+    "mongoose": "^9.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.13"
   }
 }
