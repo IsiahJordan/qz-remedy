@@ -28,7 +28,7 @@ Before pulling the project, it's expected for the dev to have MongoDB v8.2, Node
   docker run -d -p 5000:5000 client
 
   cd server
-  docker run -d -p 3000:3000 server
+  docker run -d -p 3000:3000 --env-file .env server
   ```
 
 ## **Main Features**
