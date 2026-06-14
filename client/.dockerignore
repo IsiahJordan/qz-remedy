@@ -1,0 +1,7 @@
+.gitignre
+.git
+.env
+node_modules
+npm-debug.log
+Dockerfile
+
