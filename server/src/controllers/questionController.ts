@@ -116,3 +116,19 @@ export async function dropQuestion(req, res) {
     res.status(400).json({ success: false, message: `Error: ${error}` });
   }
 }
+
+export async function searchQuestion(req, res) {
+  try {
+    console.info('searchQuestion: called');
+    await connectDB();
+    
+    const { qids } = req.body;
+    console.log(`searchQuestion: ${qids}`);
+    
+    const doc = await Question.find({_id : { $in: qids }});
+    res.status(200).json({ success: true, payload: doc });
+  } catch (error) {
+    console.error(`searchQuestion: error catched ${error}`);
+    res.status(400).json({ success: false, message: `Error: ${error}` });
+  }
+}
