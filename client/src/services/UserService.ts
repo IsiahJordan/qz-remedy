@@ -1,12 +1,11 @@
 import api from './api.module.ts'
 
-export type UserProps = {
+type UserProps = {
   username: string;
   password: string;
 };
 
-
-export interface HttpResponse {
+interface HttpResponse {
   success: boolean;
   message?: string;
   payload?: any;
@@ -17,3 +16,7 @@ export async function postRegister({ username, password }: UserProps): Promise<H
   return response;
 }
 
+export async function postLogin({ username, password }: UserProps): Promise<HttpResponse> {
+  const response = await api.post<HttpResponse>('/user/login', { username, password });
+  return response;
+}

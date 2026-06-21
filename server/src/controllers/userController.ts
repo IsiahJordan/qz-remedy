@@ -44,8 +44,8 @@ export async function login(req, res) {
       console.warn("login: password doesn't match");
       return res.status(400).json({ success: false, message: `password doesn't match` });
     }
-    
-    res.status(200).json({ success: true, payload: user.username });
+
+    res.status(200).json({ success: true, payload: { id: user._id, username: user.username } });
   } catch(error) {
     console.error(`login Error: ${error}`);
     res.status(400).json({ success: false, message: `Error: ${error}` });
