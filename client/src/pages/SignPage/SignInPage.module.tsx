@@ -44,7 +44,7 @@ export default function SignInPage() {
             >
               SIGN IN
             </Button>
-            <Button variant='text'>
+            <Button variant='text' onClick={() => navigate('/sign?type=up')}>
               CREATE ACCOUNT
             </Button>
           </>
