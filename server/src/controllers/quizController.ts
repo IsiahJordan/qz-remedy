@@ -91,7 +91,7 @@ export async function fetchQuiz(req, res) {
   } 
 }
 
-export async function fetchQuizByAuthor() {
+export async function fetchQuizByAuthor(req, res) {
   try {
     console.info('fetchQuizByAuthor: called');
     await connectDB();
