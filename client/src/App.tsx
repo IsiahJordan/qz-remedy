@@ -1,17 +1,21 @@
-import { postRegister } from './services/UserService.ts'
+import { Routes, Route } from 'react-router'
+
+import HomePage from './pages/HomePage'
+import SignPage from './pages/SignPage'
+import QuizPage from './pages/QuizPage'
+
+import NavLayout from './layouts/NavLayout.tsx';
 
 function App() {
-  postRegister({ username: 'Noob', password: 'test212' }).then(response => {
-    console.log('Registration success:', response);
-  })
-  .catch(error => {
-    console.error('Registration failed:', error);
-  });
-
   return (
-    <>
-    </>
-  )
+    <Routes>
+      <Route element={<NavLayout/>}>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='/quiz' element={<QuizPage/>}/>
+      </Route>
+      <Route path='/sign' element={<SignPage/>}/>
+    </Routes>
+  );
 }
 
 export default App
