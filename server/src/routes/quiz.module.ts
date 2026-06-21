@@ -5,6 +5,7 @@ import {
   createQuiz,
   dropQuiz,
   updateQuiz,
+  fetchQuizByAuthor,
   pushQuestion,
   popQuestion,
   clearQuestions
@@ -17,6 +18,7 @@ router.get('/:id', fetchQuiz);
 router.post('/create', createQuiz);
 router.delete('/:id', dropQuiz);
 router.put('/:id', updateQuiz);
+router.get('/author/:username', fetchQuizByAuthor);
 
 router.put('/:id/push', pushQuestion);
 router.put('/:id/pop', popQuestion);

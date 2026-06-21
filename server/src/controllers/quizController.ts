@@ -6,11 +6,12 @@ export async function createQuiz(req, res) {
     console.info('createQuiz: called');
     await connectDB();
     
-    const { name, description } = req.body;
-    console.log(`createQuiz: ${name}, ${description}`);
+    const { name, description, author } = req.body;
+    console.log(`createQuiz: ${name}, ${description}, ${author}`);
     const doc = new Quiz({
       name: name,
       description: description,
+      author: author,
       qids: []
     });
 
@@ -86,6 +87,23 @@ export async function fetchQuiz(req, res) {
     res.status(200).json({ success: true, payload: doc });
   } catch(error) {
     console.error(`fetchQuiz Error: ${error}`);
+    res.status(400).json({ success: false, message: `Error: ${error}` });
+  } 
+}
+
+export async function fetchQuizByAuthor() {
+  try {
+    console.info('fetchQuizByAuthor: called');
+    await connectDB();
+
+    const username = req.params.username;
+    console.log(`fetchQuizByAuthor: ${username}`);
+
+    const doc = await Quiz.find({ author: username });
+    
+    res.status(200).json({ success: true, payload: doc });
+  } catch(error) {
+    console.error(`fetchQuizByAuthor Error: ${error}`);
     res.status(400).json({ success: false, message: `Error: ${error}` });
   } 
 }
